@@ -1,8 +1,8 @@
 void main(String[] args) {
-     Scanner scanner = new scanner(System.in);
+     Scanner scanner = new Scanner(System.in);
 
       System.out.print("A temperatura em celsius é: ");
-      int celsius = scanner.mewtInt();
+      int celsius = scanner.nextInt();
 
 double fahrennheit = ( celsius * 9 / 5.0) + 32;
 
