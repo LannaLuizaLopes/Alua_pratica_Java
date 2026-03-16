@@ -1,13 +1,29 @@
-
 void main(String[] args) {
-    int quantidadedePassos = 500;
-    double alturaEmMetros = 1.68;
-    String nome = "Jose";
+    Scanner scanner = new Scanner(System.in);
 
-    if (quantidadedePassos < 2000) {
-        String sugestao = "sugiro que vc tente aumentar a meta!";
-        System.out.println(sugestao);
-        alturaEmMetros = 2.3;;
+    System.out.print("Nome: ");
+    String nome = scanner.nextLine();
 
+    System.out.print("Idade: ");
+    int idade = scanner.nextInt();
+
+    System.out.print("Altura: ");
+    double altura = scanner.nextDouble();
+
+    System.out.print("É estudante? (false/true): " );
+    boolean ehEstudante = scanner.nextBoolean();
+
+    {
+        scanner.nextLine();
     }
+    System.out.println("Nome: " + nome);
+
+    System.out.println("Idade: " + idade);
+
+    System.out.println("Altura: " + altura);
+
+    System.out.println("É estudante? " + ehEstudante);
+
+    scanner.close();
+
 }
