@@ -21,10 +21,17 @@ public class main1 {
     String reposta = scanner.next();
     isEstudante = reposta.equalsIgnoreCase("sim");
 
+        {
+            scanner.nextLine();
+        }
         System.out.println("Nome: " + nome);
+
         System.out.println("Idade: " + idade);
+
         System.out.println("Altura: " + altura + " de altura ");
+
         System.out.println("Você é estudante? " + isEstudante);
+
 
         scanner.close();
 
