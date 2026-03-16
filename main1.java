@@ -24,6 +24,7 @@ public class main1 {
         {
             scanner.nextLine();
         }
+
         System.out.println("Nome: " + nome);
 
         System.out.println("Idade: " + idade);
